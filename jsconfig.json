@@ -2,7 +2,8 @@
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@/*": ["src/*"]
+      "@/*": ["src/*", "./lib/*"]
     }
-  }
+  },
+  "include": ["adv-app/eslint.config.ts"]
 }
